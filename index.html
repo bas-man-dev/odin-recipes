@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Just a basic idea of what's needed for the recipe project with Odin Project
+
+    Just refreshing my build skills while trying to get onto the Rails part of the course atm
+
+    Any questions about how I will tidy this up or improve the user experience are welcome -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
 </head>
 <body>
     <h1>Odin Recipes</h1>
     <figure>
         <img src="./Images/VikingFood.jpg" alt="A viking feast">
     </figure>
+    <hr>
     <nav>
         <h2 id="header">Odin Recipes Links</h2>
-        <ol>
-            <li><a href="./recipes/lasagne.html">Lasagne</a> </li>
-            <li> <a href="./recipes/vegChilli.html">Vegetarian Chilli</a></li>
-            <li></li>
-            
-        </ol>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./recipes/lasagne.html">Lasagne</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./recipes/vegChilli.html">Chilli Non Carne</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./recipes/welshRabbit.html">Welsh Rarebit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
     </nav>
+   <hr>
 <main>
-    
+    <p>YOUR AD HERE!</p>
 </main>
    </body>
 </html>
